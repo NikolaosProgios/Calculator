@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_primary_variant">#f6f8f9</color>
+    <color name="tv_number">@color/black</color>
+    <color name="tv_symbols">#facb88</color>
+    <!--                1
+        <color name="table">#F1F1F1</color>
+        <color name="main_bg">@color/white</color>
+
+        <color name="text_number">@color/white</color>
+        <color name="text_operators">@color/white</color>
+        <color name="text_brackets">@color/white</color>
+        <color name="text_clear">@color/white</color>
+
+        <color name="bg_btn_number">#FF03DAC5</color>
+        <color name="bg_btn_operator">#FF9800</color>
+        <color name="bg_clear">#F44336</color>
+        <color name="bg_brackets">#A1A1A1</color>
+        <color name="bg_equal">@color/bg_btn_operator</color>
+    -->
+    <!--            3               -->
+    <color name="table">#f6f8f9</color>
+    <color name="main_bg">#f6f8f9</color>
+
+    <color name="text_number">#4a5057</color>
+    <color name="text_operators">@color/white</color>
+    <color name="text_brackets">#4a5057</color>
+    <color name="text_clear">#f64650</color>
+
+    <color name="bg_btn_number">#e9f0f4</color>
+    <color name="bg_btn_operator">#FB9405</color>
+    <color name="bg_clear">#f8eced</color>
+    <color name="bg_brackets">#e9f0f4</color>
+    <color name="bg_equal">#2ec973</color>
+    <!--            /3               -->
+    <!--        2
+    <color name="table">#f5f5f5</color>
+    <color name="main_bg">#fdfdfd</color>
+
+    <color name="text_number">#373636</color>
+    <color name="text_operators">#373636</color>
+    <color name="text_brackets">#665450</color>
+    <color name="text_clear">#665450</color>
+
+    <color name="bg_btn_number">#f5f5f5</color>
+    <color name="bg_btn_operator">#e5e5e5</color>
+    <color name="bg_clear">#f5f5f5</color>
+    <color name="bg_brackets">#f5f5f5</color>
+    <color name="bg_equal">#ff6531</color>
+-->
+    <color name="black">#192220</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TableRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginStart">@dimen/margin_large_x</item>
+        <item name="android:layout_marginEnd">@dimen/margin_large_x</item>
+    </style>
+
+    <style name="buttonFather">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/height_large</item>
+        <item name="android:layout_marginTop">@dimen/margin_small_x</item>
+        <item name="android:layout_marginBottom">@dimen/margin_small_x</item>
+        <item name="android:layout_marginStart">@dimen/margin_medium</item>
+        <item name="android:layout_marginEnd">@dimen/margin_medium</item>
+        <item name="android:textSize">@dimen/text_medium_x</item>
+        <item name="cornerRadius">@dimen/corner_default</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:gravity">center</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="buttonNumber" parent="buttonFather">
+        <item name="backgroundTint">@color/bg_btn_number</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:textColor">@color/text_number</item>
+    </style>
+
+    <style name="buttonOperator" parent="buttonFather">
+        <item name="backgroundTint">@color/bg_btn_operator</item>
+        <item name="android:textColor">@color/text_operators</item>
+    </style>
+
+    <style name="buttonBrackets" parent="buttonFather">
+        <item name="backgroundTint">@color/bg_brackets</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:textColor">@color/text_brackets</item>
+    </style>
+
+    <style name="buttonClear" parent="buttonFather">
+        <item name="backgroundTint">@color/bg_clear</item>
+        <item name="android:textColor">@color/text_clear</item>
+    </style>
+
+    <style name="text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:paddingStart">@dimen/margin_large_x</item>
+        <item name="android:paddingEnd">@dimen/margin_large_x</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:textColor">@color/tv_number</item>
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+</resources>

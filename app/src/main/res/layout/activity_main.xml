@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/solution_tv"
+        style="@style/text_view"
+        android:layout_above="@id/result_tv"
+        android:layout_marginBottom="@dimen/margin_small" />
+
+    <TextView
+        android:id="@+id/result_tv"
+        style="@style/text_view"
+        android:layout_above="@id/buttons_layout"
+        android:layout_marginBottom="@dimen/margin_large_x"
+        android:text="@string/num_zero" />
+
+    <TableLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/table"
+        android:orientation="vertical"
+        android:paddingVertical="@dimen/padding_large">
+
+        <TableRow style="@style/TableRow">
+
+            <Button
+                android:id="@+id/button_c"
+                style="@style/buttonClear"
+                android:text="@string/clear" />
+
+            <Button
+                android:id="@+id/btn_paren_start"
+                style="@style/buttonBrackets"
+
+                android:backgroundTint="@color/bg_brackets"
+                android:text="@string/paren_start" />
+
+            <Button
+                android:id="@+id/btn_paren_end"
+                style="@style/buttonBrackets"
+                android:backgroundTint="@color/bg_brackets"
+                android:text="@string/paren_end" />
+
+            <Button
+                android:id="@+id/button_divide"
+                style="@style/buttonOperator"
+                android:text="@string/division" />
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <Button
+                android:id="@+id/button_7"
+                style="@style/buttonNumber"
+                android:text="@string/num_seven" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_8"
+                style="@style/buttonNumber"
+                android:text="@string/num_eight" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_9"
+                style="@style/buttonNumber"
+                android:text="@string/num_nine" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_multiply"
+                style="@style/buttonOperator"
+                android:text="@string/multiply" />
+
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_4"
+                style="@style/buttonNumber"
+                android:text="@string/num_four" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_5"
+                style="@style/buttonNumber"
+                android:text="@string/num_five" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_6"
+                style="@style/buttonNumber"
+                android:text="@string/num_six" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_plus"
+                style="@style/buttonOperator"
+                android:text="@string/plus" />
+
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <Button
+                android:id="@+id/button_1"
+                style="@style/buttonNumber"
+                android:text="@string/num_one" />
+
+            <Button
+                android:id="@+id/button_2"
+                style="@style/buttonNumber"
+                android:text="@string/num_two" />
+
+            <Button
+                android:id="@+id/button_3"
+                style="@style/buttonNumber"
+                android:text="@string/num_three" />
+
+            <Button
+                android:id="@+id/button_minus"
+                style="@style/buttonOperator"
+                android:text="@string/minus" />
+
+        </TableRow>
+
+        <TableRow style="@style/TableRow">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_ac"
+                style="@style/buttonClear"
+                android:text="@string/clear_all"
+                android:textSize="@dimen/text_small" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_0"
+                style="@style/buttonNumber"
+                android:text="@string/num_zero" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_dot"
+                style="@style/buttonNumber"
+                android:text="@string/dot" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_equals"
+                style="@style/buttonOperator"
+                android:text="@string/equal"
+                android:backgroundTint="@color/bg_equal"
+                />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <!-- Number -->
+    <string name="num_zero">0</string>
+    <string name="num_one">1</string>
+    <string name="num_two">2</string>
+    <string name="num_three">3</string>
+    <string name="num_four">4</string>
+    <string name="num_five">5</string>
+    <string name="num_six">6</string>
+    <string name="num_seven">7</string>
+    <string name="num_eight">8</string>
+    <string name="num_nine">9</string>
+
+    <!-- Operators -->
+    <string name="equal">=</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="multiply">*</string>
+    <string name="division">/</string>
+
+    <!-- Symbols -->
+    <string name="paren_start">(</string>
+    <string name="paren_end">)</string>
+    <string name="clear">C</string>
+    <string name="clear_all">AC</string>
+    <string name="dot">.</string>
+
+    <!-- Others -->
+    <string name="result">=%1$s</string>
+
+</resources>

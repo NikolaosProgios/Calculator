@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_primary_variant">@color/table</color>
+    <color name="tv_number">#e9f0f4</color>
+    <color name="tv_symbols">#82520d</color>
+
+    <!--            3               -->
+    <color name="table">#17181a</color>
+    <color name="main_bg">#17181a</color>
+
+    <color name="text_number">#fafafa</color>
+    <color name="text_operators">#fafafa</color>
+    <color name="text_brackets">#fafafa</color>
+    <color name="text_clear">#d73d46</color>
+
+    <color name="bg_btn_number">#222427</color>
+    <color name="bg_btn_operator">#ff9500</color>
+    <color name="bg_clear">#2d191e</color>
+    <color name="bg_brackets">#222427</color>
+    <color name="bg_equal">#2ec973</color>
+
+    <!--            /3               -->
+
+    <color name="black">#192220</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
